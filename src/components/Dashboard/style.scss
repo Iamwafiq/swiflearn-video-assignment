@@ -1,0 +1,151 @@
+.tabSelector{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 10% ;
+  height: 2em;
+  width: 50%;
+  font-size: 2em;
+  padding: 10px;
+}
+
+
+.CardActive{
+  display: block;
+  z-index: 9;
+}
+
+.Card{
+  display: none;
+}
+.infoChannels{
+	display: flex; //to place buttons & cards div horizontally
+ };
+
+.channelScrollView{
+  display: flex; 
+  overflow-x: auto;
+  width: 98%;
+  padding: 4em;
+ };
+
+.channelCardCenter{ 
+  font-size: 1.3em;
+  display: block;
+  text-align: center;
+  margin-top: 20%;
+  flex: 0 0 auto;
+
+ };
+
+ .channelCardBottom{ 
+  display: block;
+  text-align: center;
+  marginTop: 1.5em;
+ };
+
+.channelCard{
+  margin-top: 3em;
+  height: 10em;
+  width: 20%;
+  flex: 0 0 auto;
+  margin-left: -1em;
+  margin-left: -1em;
+  background-color: #EBEEF3;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  z-index: 1;
+ };
+
+
+ .channelCardActive{
+  height: 16em;
+  width: 24em;
+  flex: 0 0 auto;
+  margin-left: -2em;
+  margin-right: -2em;
+  background-color: #EBEEF3;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  z-index: 9;
+  
+ }
+
+ .buttonScroll{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgba(235, 238, 243, 0.1);;
+  margin-top: 15em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 2.5em;
+  height: 2.5em,
+};
+
+.dashboardBody{
+	display: flex;
+  background-color: #EBEEF3;
+  h1{
+    margin-bottom: 0px;
+    font-weight: lighter;
+    float: left
+  }
+  ul{
+    float: left;
+    margin: 0;
+    li{
+      color: #313131;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 13px;
+      align-items: center;
+      p{
+        font-weight: lighter;
+      }   
+    }
+  }
+};
+.dashboardBody1{
+  display: flex;
+  background-color: #EBEEF3;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  h1{
+    margin-bottom: 0px;
+    font-weight: lighter;
+    float: left
+  }
+  ul{
+    float: left;
+    margin: 0;
+    li{
+      color: #313131;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 13px;
+      align-items: center;
+      p{
+        font-weight: lighter;
+      }   
+    }
+  }
+};
+
+img {
+    font-style: normal;
+    width: 4em;
+    height: 4em;
+    margin: auto;
+    position: relative;
+    margin-top: 20%;
+  }
+
+td {
+  padding: 0.4em 2em;
+}
+
